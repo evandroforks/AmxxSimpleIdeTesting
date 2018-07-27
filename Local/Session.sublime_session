@@ -1,0 +1,237 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3143,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Package Control Messages\n========================\n\nSideBySideSettings\n------------------\n\n  Thanks for installing the Side-by-Side Settings plug-in for Sublime Text! This\n  plug-in adds three new commands to the command palette (only two are added in\n  Sublime Text 2):\n  \n    1. Side-by-Side: Select a File (Ctrl+K, Ctrl+S)\n       Note that this command is only available in Sublime Text 3. Opens a panel\n       displaying all of the .sublime-settings and .sublime-keymap files in the\n       Sublime Text environment. For more on how to use this command, see the\n       corresponding section below.\n  \n    2. Side-by-Side: Sublime Settings\n       Opens both default and user Sublime Text settings side by side in a new\n       window\n  \n    3. Side-by-Side: Sublime Key Bindings\n       Opens both default and user Sublime Text key bindings side by side in a new\n       window\n  \n  ================================================================================\n  Using the Select a File Command (Sublime Text 3 Only)\n  ================================================================================\n  The \"select a file\" command opens a quick panel that displays all of the \n  .sublime-settings and .sublime-keymap files that Sublime Text knows about\n  (note that files located in the Packages/User directory are filtered out of\n  this list; more on why it does this in a second). When a file in the quick panel\n  is selected, it becomes the \"left\" (or \"top\", depending on your settings) panel\n  in the comparison window. The \"right\" (or \"bottom\") panel will contain the\n  corresponding user settings file, typically located in the Packages/User\n  directory (hence why files in Packages/User are filtered out of the list).\n  \n  Side-by-Side Settings tries to do the correct thing depending on the file you\n  select in the quick panel. If the file you select is a platform-specific\n  settings file (e.g. Default/Preferences (Windows).sublime-settings), the\n  corresponding user file that gets opened will be Preferences.sublime-settings\n  (in the Packages/User directory). This is due to the fact that platform-\n  specific files in the User directory are ignored by Sublime Text. Likewise, if\n  you select a .sublime-keymap file, the appropriate platform-specific\n  .sublime-keymap file in the User directory will be opened.\n  \n  Note that this command is bound to the Ctrl+K, Ctrl+S key chord by default, and\n  is only available for users of Sublime Text 3.\n  \n  ================================================================================\n  Easily Closing a Side-by-Side Window\n  ================================================================================\n  To close the window that opens up when a Side-by-Side Settings command is\n  issued, simply issue the same command a second time. The window that opened up\n  will be closed for you! This is a particularly helpful feature when a command is\n  bound to a keyboard shortcut.\n  \n  ================================================================================\n  Customizing the Key Binding\n  ================================================================================\n  By default, the key-chord Ctrl+K, Ctrl+S is bound to the \"select a file\"\n  command. If you wish to bind any of the commands to a different key, here are\n  the internal command names to use:\n  \n  * sxs_select_file\n  * sxs_settings\n  * sxs_key_bindings\n  \n  Here's an example key binding:\n  \n  { \"keys\": [\"ctrl+k\", \"ctrl+p\"], \"command\": \"sxs_settings\" }\n  \n  ================================================================================\n  Plug-in Settings\n  ================================================================================\n  Side-by-Side Settings currently supports the following plug-in specific \n  settings:\n  \n    display_using_rows\n    This option specifies whether or not to arrange the side-by-side views\n    vertically instead of horizontally. The default value for this option is\n    false.\n  \n    open_in_distraction_free\n    This option allows the side-by-side window to open in distraction free mode,\n    essentially resulting in a full-screen window. This option defaults to false.\n  \n  ================================================================================\n  Reporting Bugs & Suggesting Features\n  ================================================================================\n  If you spot a bug in this plug-in, or you have a feature request, please open an\n  issue over on the project issues page at GitHub:\n  \n  https://github.com/jgbishop/sxs-settings/issues\n\n\nAmxxEditor\n----------\n\n  \n  \n  \n  # AmxxEditor\n  \n  By default,this version do not create the `AmxxEditor` menu,\n  because not everybody want that menu showing up.\n  \n  You can add the menu going on the Sublime Text menu:\n  `Preferences -> Package Settings -> AmxxEditor -> Install AmxxEditor Menu`\n",
+					"settings":
+					{
+						"buffer_size": 4848,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 269.0,
+				"last_filter": "isnta",
+				"selected_items":
+				[
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Add Channel"
+					]
+				],
+				"width": 444.0
+			},
+			"console":
+			{
+				"height": 559.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4848,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4848,
+										4848
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2089.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 35.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-1,-1,-1,-1,773,234,234,890",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
