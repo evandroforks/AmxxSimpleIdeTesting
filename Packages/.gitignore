@@ -1,0 +1,20 @@
+
+
+
+# Ignore Everything
+# *
+# **
+
+
+
+# Ignore other custom packages
+/AmxxEditor
+/ChannelManager
+/DebugTools
+/Default
+/EstimatedTimeLeft
+
+
+# Packages dependencies
+
+

@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json",
+		"https://packagecontrol.io/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"0_settings_loader",
+		"ActiveViewJumpBack",
+		"AmxxChannel",
+		"AmxxEditor",
+		"AmxxPawn",
+		"BBCode",
+		"ClearCursorsCarets",
+		"Default",
+		"DefaultSyntax",
+		"FixProjectSwitchRestartBug",
+		"MoveText",
+		"Notepad++ Color Scheme",
+		"OverrideCommitCompletion",
+		"OverrideUnpackedPackages",
+		"Package Control",
+		"PowerCursors",
+		"SideBySideSettings"
+	]
+}
